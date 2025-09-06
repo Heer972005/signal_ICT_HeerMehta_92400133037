@@ -26,3 +26,5 @@ USAGE EXAMPLE-->
 from signal_ICT_HeerMehta_92400133037 import unitary_signals
 unitary_signals.unit_step(20)
 
+INSTALLATION(from TestPyPI)
+using:pip install --index-url https://test.pypi.org/simple/ --no-deps signal-ICT-HeerMehta-92400133037

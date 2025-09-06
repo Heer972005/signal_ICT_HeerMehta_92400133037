@@ -3,7 +3,7 @@ name="signal-ICT-HeerMehta-92400133037"
 version = "0.1.1"
 description = "A Python package for ICT signal processing"
 authors = [
-  { name = "Heer Mehta", email = "your_email@example.com" }
+  { name = "Heer Mehta" }
 ]
 license = { file = "LICENSE" }
 readme = "README.md"
