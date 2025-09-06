@@ -5,14 +5,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 n = 20
-step_signal = us.unit_step(n)
-impulse_signal = us.unit_impulse(n)
-ramp_signal = us.ramp_signal(n)
+step_signal = us.unit_step(n)#step signal
+impulse_signal = us.unit_impulse(n)#impulse signal
+ramp_signal = us.ramp_signal(n)#ramp signal
 
 
-t = np.linspace(0, 1, 500)
-sine_signal = ts.sine_wave(2, 5, 0, t)
-cosine_signal = ts.cosine_wave(2, 5, 0, t)
+t = np.linspace(0, 1, 500)#from 0 to 1 creats 500 equally spaced vaalues
+sine_signal = ts.sine_wave(2, 5, 0, t)#amplitude=2,f=5,phase=0
+cosine_signal = ts.cosine_wave(2, 5, 0, t)#amplitude=2,f=5,phase=0
 
 sine_shifted = op.time_shift(sine_signal, 5)
 plt.figure()
