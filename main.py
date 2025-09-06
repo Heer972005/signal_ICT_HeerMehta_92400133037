@@ -37,6 +37,7 @@ plt.show()
 
 multiplied_signal = op.signal_multiplication(sine_signal, cosine_signal)
 plt.plot(t,multiplied_signal, label="Sine *Cosine")
+plt.title("Multiplied signal")
 plt.grid(True)
 plt.legend()
 plt.show()
